@@ -27,7 +27,7 @@ function App() {
         shadows
       >
         <Orbit />
-        <axesHelper args={[5]} />
+        {/* <axesHelper args={[5]} /> */}
         <CameraControls />
         <Lights />
         <Suspense fallback={null}>
